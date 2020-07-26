@@ -1,0 +1,205 @@
+body { 
+background:rgb(221, 221, 221);
+text-align:left;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font:8pt;
+}
+.container{
+ height:100vh;
+ border:solid 100px rgb(221, 221, 221);
+}
+.header{
+    display:flex;
+    width:100%;
+    height:100px;
+    
+}
+.title{
+flex-grow:1;
+left:100px;
+width: 400px;
+padding: 10px;
+height:80px;
+font-size:20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+/*border-radius:20px;*/  /*dont kn why not working -reason need to have display:flex in the top container*/ 
+}
+.name{
+   font-size:30px;  
+}
+.header-options{
+    width:400px;
+    height:80px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.item{
+    flex-grow:1;
+}
+
+.hr{
+width:3px;
+color:#ff3819;
+}
+.Intro{
+    width:100%;
+    height:500px;
+    top:100px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.pic-container{
+   /* flex-grow:1;*/
+
+    width:400px;
+    height:400px;
+    border:solid;
+    margin-top: 20px;
+    border-radius: 50%;
+   /* padding:20px;*/
+   
+}
+
+#arpita{
+    width:400px;
+    height:400px;
+   /* border:solid;*/
+    border-radius:50%;
+}
+
+.blank-img{
+    flex-grow:1;
+    width:400px;
+    height:400px;
+    /*border:solid;*/
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#blankimage{
+width: 500px;
+height: 400px;
+position: relative;
+}
+.aboutme-container{
+    width:400px;
+    height:400px;
+    /*border:solid;*/
+    /*margin-top: 20px;*/
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    position:absolute;
+}
+.greet{
+width:400px;
+height:100px;
+margin-top:20px;
+font-size: 35px;
+padding:20px;
+margin-top: 50px;
+margin-left: 30px;
+}
+.aboutme{
+width: 400px;
+height: 100px;
+margin-left: 30px;
+}
+
+.projects{
+width:100%;
+/*height:500px;*/
+/*border:solid;*/
+}
+.pro-title{
+width:100px;
+height:40px;
+padding:20px;
+font-size:25px;
+font-weight: bold;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+.personal-title, .course-title{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.logo{
+ 
+    width:100%;
+    height:50px;
+    background-color:rgb(211, 58, 84);
+    position:relative;
+  
+ 
+}
+
+.logo-name{
+ position:absolute;
+ margin-left:65px;
+ font-size:18px;
+ color:white;
+}
+
+.project{
+   /* border:solid;*/
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#img{
+    margin-left:200px;
+    padding:40px;
+    width:420px;
+    height:300px;
+}
+#img2{
+    margin-left:100px;
+    padding:20px;
+    width:420px;
+    height:300px;
+}
+.study{
+    margin-left:100px;
+}
+
+#img1{
+    padding:20px;
+    width:420px;
+    height:300px; 
+}
+p{
+font-family:"Calibri";
+font-size:15pt;
+text-align:left
+}
+
+h1{
+    font-size:17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact{
+    width:100%;
+    height:50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:rgb(211, 58, 84) ;
+}
+.contact-item{
+    flex-grow:1;
+    text-align: center;
+}
