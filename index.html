@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Arpita's Website</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    
+
+</head>
+
+<body>
+    <div id="main">
+        <div class="container">
+            <div class="header">
+                <div class="title">
+                    <div class="name">Arpita Sikder<br></div>
+                    Computer Engineer-New Grad
+                    
+                </div>
+                <div class="header-options">
+
+                    <a class="item" href="#intro">About Me</a>
+                    <a class="item" href="#resume">Resume</a>
+                    <a class="item" href="#projects">Projects</a>
+                    <a class="item" href="#contact">Contact</a>
+                    
+
+                </div>
+                
+                
+            </div>
+            <hr>
+            <div class="personal-title">
+                <div class="logo"></div>
+                <div class="logo-name">About ME</div>
+                
+            </div>
+            <hr>
+            <div class="Intro" id="intro">
+                <div class="pic-container">
+                    <img id="arpita" src="arpita1.jpg">
+                </div>
+                <div class=blank-img>
+                    <img id="blankimage" src=blankimage1.jpg alt="">
+                    <div class="aboutme-container">
+
+                        <div class="greet">Hi there, <br> about me:</div>
+                        <div class="aboutme">
+                            <script>
+                                var i = 0;
+                                var speed = 50;
+                                var s = 'I have recently graduated from Ryerson University with a Bachelor\'s Degree in Computer Engineering. I am looking for a job that will help me push my limits and showcase my full potential.';
+                                function writestrings() {
+                                    if (i < s.length) {
+                                        document.querySelector('.aboutme').innerHTML += s.charAt(i);
+                                        i++;
+                                        setTimeout(writestrings, speed);
+                                    }
+                                }
+                                writestrings();
+                            </script>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume" id="resume">
+                <div class="education">
+                    <div class="personal-title">
+                        <div class="logo"></div>
+                        <div class="logo-name">Education</div>
+                    </div>
+                    <div class="project">
+
+                        <div class="study">
+                            <div class="proj-title">Bachelor in Computer Engineering <br> Ryerson University, Toronto,
+                                Ontario</div>
+                        </div>
+                        <img id="img" src="study-img.jpg" alt="">
+
+
+                    </div>
+
+                </div>
+
+                <div class="Work">
+                    <div class="personal-title">
+                        <div class="logo"></div>
+                        <div class="logo-name">Work Experience</div>
+                    </div>
+                    <div class="project">
+
+                        <div class="des">
+                            <div class="proj-title">Company- Avaya Cloud <br>
+                                Title- Software Integration Engineer<br>
+                                May 2018-August 2019:</div>
+                            <ul>
+                                <li>Created automated test cases for both Desktop and mobile apps e.g Avaya Spaces and Avaya Accounts, Equinox for Web etc using C# and python. </li>
+                                <li>Worked with Google cloud platform to test several new features like adding company enterprise Single sign-on login option to our Desktop app or running cron jobs etc.</li>
+                                <li>Improved debugging skills by working with developers to resolve  both frontend and backend bugs.</li>
+                                <li>Developed a good understanding on how backend APIs work and how to test them using automation and apps like Postman.</li>
+                                <li>Worked closely with the technical writer to document functionalities of new features for a better customer experience.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="Skills">
+                    <div class="personal-title">
+                        <div class="logo"></div>
+                        <div class="logo-name">Skills</div>
+                    </div>
+                    <div class="project">
+
+                        <div class="des">
+
+                            <ul>
+                                <li>Programming language: Java, Javascript, html, CSS, C, C#, python, SQL, </li>
+                                <li> Operating system: Windows, Linux</li>
+                                <li> Software: NetBeans Java, Quincy, MATLAB 2015a, Pycharm, Ranorex</li>
+                            </ul>
+                        </div>
+                        <img id="img2" src="skills-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="projects" id="projects">
+                <div class="personal">
+                    <div class="personal-title">
+                        <div class="logo"></div>
+                        <div class="logo-name">Personal Projects</div>
+                    </div>
+                    <div class="project">
+                        <img id="img1" src="weatherapp1-img.jpg" alt="">
+                        <div class="des">
+                            <div class="proj-title">Weather App [May 2020]:</div>
+                            <ul>
+                                <li>The application accesses the user location to give necessary weather details.</li>
+                                <li>The application was created using HTML, CSS and Javascript.</li>
+                                <li>The app sends a request to the weather API which then returns a response of the
+                                    weather information corresponding to the latitude and longitude of the area.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="project">
+                        <img id="img1" src="webpage-img.jpg" alt="">
+                        <div class="des">
+                            <div class="proj-title">Personal webpage [May 2020]:</div>
+                            <ul>
+                                <li>The personal website was created using HTML and CSS.</li>
+                                <li> Links were used to refer to corresponding documents.</li>
+                                <li>Further shapes, images and colors were incorporated to make the webpage more
+                                    interesting and user interactive.</li>
+                                <li> https://arpitasikder.imfast.io</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="project">
+                        <img id="img1" src="snakegame-img.jpg" alt="">
+                        <div class="des">
+                            <div class="proj-title">Snake Game Application [June 2017-July 2017]:</div>
+                            <ul>
+                                <li>The snake game was developed using Java in NetBeans.</li>
+                                <li>Graphics, JPanel, Color, and Font were used to design the snake game.</li>
+                                <li>Incorporated for loops, if statements along with arrays that stored the x , y
+                                    coordinates for the movement and initial positioning of the snake.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="project">
+                        <img id="img1" src="calculator-img.jpg" alt="">
+                        <div class="des">
+                            <div class="proj-title">Simple Calculator App [May 2017-June 2017]:</div>
+                            <ul>
+                                <li>Created a simple calculator using Quincy in C language.</li>
+                                <li>Performs calculations like addition, subtraction, reminder, multiplication and
+                                    division.</li>
+                                <li>Effectively used while loops and switch and break statements.</li>
+                                <li>Depends on user input from the keyboard.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-title">
+                        <div class="logo"></div>
+                        <div class="logo-name">Course Projects</div>
+                    </div>
+                    <div class="project">
+                        <img id="img1" src="chat1-img.jpg" alt="">
+                        <div class="des">
+                            <div class="proj-title">Secure Chat Application [March 2020 - April2020]:</div>
+                            <ul>
+                                <li>Created a secure chat application that helps send and receive information using
+                                    Java.</li>
+                                <li>Designed and Implemented SSL handshake and record layer protocol at the Application
+                                    layer.</li>
+                                <li>Used many ciphers, protocols, algorithms from the java security framework which
+                                    includes RSA, DES, 3DES, Creating and Verifying Signature, MAC- SHA1 etc.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="project">
+                        <img id="img1" src="playlist-img.png" alt="">
+                        <div class="des">
+                            <div class="proj-title">PlayList Database System [January 2020 - April 2020
+                                ]:</div>
+                            <ul>
+                                <li>Designed Entity-Relationship Data Model, implemented the playlist database design in
+                                    SQL, Manipulated data using insert, delete,update.</li>
+                                <li>Programmed the database using Java. It will allow the users to perform a list of
+                                    operations through a java program command line.</li>
+                                <li>Finally the data was represented using the semi-structured representation of XML.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="project">
+                        <img id="img1" src="file-img.jpg" alt="">
+                        <div class="des">
+                            <div class="proj-title">File Transfer Application [November 2019 - December 2019]:</div>
+                            <ul>
+                                <li>Implemented a network file transfer application based on TCP using C.</li>
+                                <li>The application allows file download from server to client, file upload to the
+                                    server and listing of the available directories, folders or files present at either
+                                    side.</li>
+                                <li>The application also does error reporting if the file does not exist for download or
+                                    upload.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="project">
+                        <img id="img1" src="store3-img.jpg" alt="">
+                        <div class="des">
+                            <div class="proj-title">Virtual Store Design Project [November 2017]:</div>
+                            <ul>
+                                <li>Designed a virtual store using java in Netbeans along with Junit Testing.</li>
+                                <li>UML diagrams such as use case diagram, sequence diagram and class diagram were used
+                                    to demonstrate the design.</li>
+                                <li>Worked in a group along with two other partners and communicated through GitHub.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="contact" id="contact">
+                <div class="contact-item"><i class="fas fa-phone-volume"></i> 6479394526</div>
+                <div class="contact-item"><i class="fas fa-envelope-open-text"></i>  arpitasikder@gmail.com</a></div>
+                <div class="contact-item">Copyright &copy; 2020 by Arpita Sikder</div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
